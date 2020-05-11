@@ -4,7 +4,7 @@ Obtención aproximada del número pi con el uso del método montecarlo usando py
 
 '''Partimos de un cuadrado de lado 1 y una semicircunferencia inscrita en el de radio 1.'''
 
-![cuadrado_semicirculo](https://user-images.githubusercontent.com/64953146/81557907-0adaba80-938d-11ea-8dd6-642dbc322482.png
+<img src="https://github.com/chema-hg/Pi-con-el-metodo-montecarlo/blob/master/cuadrado_semicirculo.png">
 
 Imaginemos que lanzamos un dardo aleatorio dentro de este cuadrante. Básicamente con el "metodo montecarlo" se 
 trata de calcular las veces que este dardo aleatorio cae dentro de este semicirculo en relación al número de 
