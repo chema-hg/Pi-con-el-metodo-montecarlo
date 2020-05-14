@@ -31,7 +31,7 @@ from math import pi
 REPETICIONES=16_000_000
 
 # Por el teorema de Pitagoras la hipotenusa, que es lo que necesitamos saber para ver si el punto está
-# dentro o fuera de la semicirculo, lo que es igual a h**2=x**2+y**2 por lo que despejando:
+# dentro o fuera de la semicirculo, es igual a h**2=x**2+y**2 por lo que despejando:
 # h=(x**2+y**2)**0.5
 
 
@@ -49,7 +49,7 @@ rdo=punto.sum(axis=0)**0.5 #axis=0  suma por columnas, axis=1 suma por filas.
 
 # Ahora tenemos un array final con una sola fila y 16.000.000 de columnas.
 # Filtramos para ver cuantos de esos valores son menores o iguales que 1 y por tanto estan en el
-#semicirculo
+# semicirculo
 final=rdo[rdo<=1]
 
 probabilidad=final.size/REPETICIONES #tamaño del array/numero total de lanzamientos
