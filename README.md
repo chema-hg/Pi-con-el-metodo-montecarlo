@@ -18,7 +18,7 @@ La probabilidad de tal evento es, el número de casos posibles o veces que caen 
 inscrito, dividido entre el número de casos totales que es el area del cuadrado.
 
 Por geometría, el area de un circulo es pi*r**2, pero en este caso no es un circulo entero sino 1/4 del mismo.
-Ya que estamos utilizando solo un cuadrante para lanzar nuestro dardo. Por ello, al ser el radio de la circufenrecia
+Ya que estamos utilizando solo un cuadrante para lanzar nuestro dardo. Por ello, al ser el radio de la circunferencia
 igual a 1 el area del semicirculo inscrito en ese cuadrante es de pi/4. Este es el número de casos posibles.
 
 El numero de casos totales es el área del cuadrado, lo que es más fácil de ver porque el area del cuadrado es 1.
