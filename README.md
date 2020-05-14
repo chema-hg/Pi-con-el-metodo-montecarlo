@@ -1,6 +1,10 @@
 # Pi-con-el-metodo-montecarlo
 Obtención aproximada del número pi con el uso del método montecarlo usando python
 
+El repositorio contiene 2 archivos .py independientes:
+- Pi con el metodo montecarlo.py programado con las librerias estandar de python, pero lento en cuanto al cálculo.
+- Pi_montecarlo_numpy.py progrado con la libreria numpy y muchisimo más rapido en su ejecución que el anterior.
+
 
 '''Partimos de un cuadrado de lado 1 y una semicircunferencia inscrita en el de radio 1.'''
 
