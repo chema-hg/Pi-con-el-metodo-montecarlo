@@ -25,7 +25,6 @@ Esto es probabilidad=(pi/4)/1 o lo que es lo mismo probabilidad = pi/4. Si despe
 su valor y lo vamos a calcular por aproximación : pi = probabilidad * 4'''
 
 import numpy as np
-from math import pi
 
 # Numero de veces que se repite el experimento 16_000_000
 REPETICIONES=16_000_000
@@ -56,7 +55,7 @@ probabilidad=final.size/REPETICIONES #tamaño del array/numero total de lanzamie
 
 print("La probabilidad =", probabilidad)
 print("El numero estimado de pi=", probabilidad*4)
-print(f'El error para {REPETICIONES} de REPETICIONES es de {(pi-probabilidad*4):.5f}')
+print(f'El error para {REPETICIONES} de REPETICIONES es de {(np.pi-probabilidad*4):.5f}')
 
 
     
