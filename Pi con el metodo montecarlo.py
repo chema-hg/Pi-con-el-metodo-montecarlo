@@ -44,7 +44,7 @@ prob = cont/REPETICIONES
 print('Probabilidad=', prob)
 print('El numero estimado de pi=', prob*4)
 # Ese :.5f en la cadena de formato está especificando que se quiere representar un número en coma flotante
-# con hasta dos decimales, como mucho. f"{valor:.5f}". Esto para verlo por pantalla, si queremos redondear
+# con hasta cinco decimales, como mucho. f"{valor:.5f}". Esto para verlo por pantalla, si queremos redondear
 # En los calculos habria que usar round(float, nº decimales).
 # En los casos en que necesites números exactos, con precisión definida, usa en su lugar un módulo que te permita trabajar
 # con números de aritmética decimal de coma fija, ej decimal
