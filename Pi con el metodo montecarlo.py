@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- cofing:utf-8 -*-
+# -*- config:utf-8 -*-
 
 '''Aproximación al numero pi usando el método montecarlo'''
 
